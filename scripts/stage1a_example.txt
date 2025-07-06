@@ -1,0 +1,36 @@
+# Stage 1A 実行例（才能家系図作成）
+
+# 使用方法：
+# 1. 対象人物名を設定
+# 2. Claude Codeで以下のコマンドを実行
+
+# 例：宇多田ヒカルの場合
+claude-code "
+【タスク】宇多田ヒカルの才能家系図作成（Stage 1A）
+
+1. プロンプトファイルを読み込む：
+   C:\ClaudeWork\talent-ecosystem-project\prompts\stage1a_mapping.md
+
+2. 対象人物：宇多田ヒカル
+
+3. Web検索を使用して以下を調査：
+   - 宇多田ヒカルの基本情報（デビュー時期、代表作等）
+   - 才能発掘者（最初に才能を見出した人物）
+   - 決定的影響者（人生・作風を大きく変えた人物）
+   - 指導者・メンター
+   - 家族関係（特に音楽的影響）
+   - 同世代の才能・ライバル
+   - 業界の重要人物
+
+4. 調査時間：30-45分（広く浅く）
+
+5. 出力形式：
+   - 才能家系図（1等身、2等身、3等身で整理）
+   - Phase 1B調査対象の選定（Priority S/A/B）
+   - 調査で発見した興味深いポイント
+
+6. 結果を以下のファイルに保存：
+   C:\ClaudeWork\talent-ecosystem-project\outputs\utada_hikaru\stage1a_mapping.md
+
+注意：まずoutputsディレクトリとutada_hikaruディレクトリを作成してください。
+"
